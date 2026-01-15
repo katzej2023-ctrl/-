@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuchendeutsch - TestDaF Trainer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bauhaus-red': '#D03025',
+              'bauhaus-blue': '#245499',
+              'bauhaus-yellow': '#F3C50F',
+              'bauhaus-black': '#1A1A1A',
+              'bauhaus-white': '#F5F5F5',
+            },
+            fontFamily: {
+              sans: ['Helvetica', 'Arial', 'sans-serif'],
+            },
+            boxShadow: {
+              'bauhaus': '4px 4px 0px 0px #1A1A1A',
+              'bauhaus-sm': '2px 2px 0px 0px #1A1A1A',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F5F5F5;
+        color: #1A1A1A;
+      }
+      /* Custom scrollbar for raw aesthetic */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F5F5F5;
+        border-left: 2px solid #1A1A1A;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1A1A1A;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

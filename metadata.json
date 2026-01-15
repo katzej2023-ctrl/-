@@ -1,0 +1,7 @@
+{
+  "name": "Kuchendeutsch Trainer",
+  "description": "A Bauhaus-inspired TestDaF speaking practice application featuring rigorous exam simulations, audio analysis, and structural feedback powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
